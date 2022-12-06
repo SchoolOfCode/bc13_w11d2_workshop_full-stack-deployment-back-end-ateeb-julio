@@ -5,7 +5,7 @@ import cors from "cors";
 import shoppingListRouter from "./routes/shoppingList.js";
 
 const app = express();
-
+//check 2
 app.use(cors());
 app.use(logger("dev"));
 app.use(express.json());
