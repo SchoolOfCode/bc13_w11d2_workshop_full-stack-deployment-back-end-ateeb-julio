@@ -11,13 +11,28 @@
   "dependencies": {
     "cors": "^2.8.5",
     "debug": "^4.3.4",
-    "express": "^4.18.1",
+    "express": "^4.18.2",
     "morgan": "^1.10.0",
     "pg": "^8.7.3"
   },
   "devDependencies": {
-    "dotenv": "^16.0.1",
+    "dotenv": "^16.0.3",
     "nodemon": "^2.0.18"
   },
-  "type": "module"
+  "type": "module",
+  "description": "We suggest using [Render](http://render.com/) for your first back end deploy as there's a suitable free tier, and it's fairly straightforward. However, just like for your front end, it's worth also investigating other services later on (including free Heroku credit available in the Github Student Pack).",
+  "main": "app.js",
+  "bin": {
+    "helper-videos-backend-deployment": "bin/www.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SchoolOfCode/bc13_w11d2_workshop_full-stack-deployment-back-end-ateeb-julio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SchoolOfCode/bc13_w11d2_workshop_full-stack-deployment-back-end-ateeb-julio/issues"
+  },
+  "homepage": "https://github.com/SchoolOfCode/bc13_w11d2_workshop_full-stack-deployment-back-end-ateeb-julio#readme"
 }
